@@ -5,8 +5,7 @@ import BookingForm from './BookingForm';
 const times = ['17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00'];
 
 function reducer(state, action) {
-  console.log('state,', state);
-  console.log('action', action);
+  console.log(state);
   console.log(action.date);
   if (action.type === 'update') {
     return action.times;
