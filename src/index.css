@@ -18,6 +18,18 @@ code {
   box-sizing: border-box;
 }
 
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
 ul {
   list-style: none;
 }
