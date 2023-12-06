@@ -38,28 +38,62 @@ nav {
   padding: 12px;
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
+}
+
+nav img {
+  width: 100px;
 }
 
 nav ul {
-  display: flex;
-  align-items: center;
-  text-transform: uppercase;
-  gap: 24px;
+  display: none;
 }
 
 footer {
   text-align: center;
   padding: 0 48px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  grid-template-columns: 1fr;
 }
 
 footer img {
   border-radius: 16px;
+  width: 160px;
 }
 
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 40em) {
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 48em) {
+  nav ul {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    gap: 24px;
+  }
+  nav img {
+    width: 160px;
+  }
+  .only-mobile {
+    display: none;
+  }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 64em) {
+  footer {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 80em) {
 }

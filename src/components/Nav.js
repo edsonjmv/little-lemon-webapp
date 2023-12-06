@@ -1,4 +1,5 @@
 import React from 'react';
+import { Menu } from 'react-feather';
 import { Link } from 'react-router-dom';
 
 export default function Nav() {
@@ -25,6 +26,7 @@ export default function Nav() {
           <Link to="/login">Log in</Link>
         </li>
       </ul>
+      <Menu className="only-mobile" />
     </nav>
   );
 }

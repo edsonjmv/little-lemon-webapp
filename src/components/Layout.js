@@ -5,9 +5,8 @@ import Nav from './Nav';
 function Layout({ children }) {
   return (
     <>
-      <Header>
-        <Nav></Nav>
-      </Header>
+      <Nav />
+      <Header />
       {children}
       <Footer></Footer>
     </>
