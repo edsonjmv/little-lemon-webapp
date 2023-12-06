@@ -1,15 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-export default function BookingForm({ form, onFieldChange, onSubmit }) {
-  const [availableTimes] = useState([
-    '17:00',
-    '18:00',
-    '19:00',
-    '20:00',
-    '21:00',
-    '22:00',
-    '23:00'
-  ]);
+export default function BookingForm({
+  availableTimes,
+  form,
+  onFieldChange,
+  onSubmit
+}) {
   return (
     <form onSubmit={onSubmit}>
       <label htmlFor="res-date">Choose date</label>
