@@ -1,10 +1,10 @@
 import React from 'react';
 import Layout from './Layout';
 
-export default function BookingsPage() {
+export default function BookingPage() {
   return (
     <Layout>
-      <main>BookingsPage</main>
+      <main>BookingPage</main>
     </Layout>
   );
 }

@@ -7,7 +7,7 @@ import OrderPage from './components/OrderPage';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import BookingsPage from './components/BookingsPage';
+import BookingPage from './components/BookingPage';
 import HomePage from './components/HomePage';
 
 const router = createBrowserRouter([
@@ -32,8 +32,8 @@ const router = createBrowserRouter([
     element: <MenuPage />
   },
   {
-    path: '/bookings',
-    element: <BookingsPage />
+    path: '/booking',
+    element: <BookingPage />
   }
 ]);
 

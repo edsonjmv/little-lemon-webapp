@@ -21,7 +21,7 @@ export default function Footer() {
           <Link to="/menu">Menu</Link>
         </li>
         <li>
-          <Link to="/bookings">Reservations</Link>
+          <Link to="/booking">Reservations</Link>
         </li>
         <li>
           <Link to="/order">Order online</Link>
